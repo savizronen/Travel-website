@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(53, 71, 110);
+    background-position: center;
+    background-size: cover;
+}
+
+
+header {
+    position: static;
+}
+
+main ul {
+    width: 1450px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+
+li:nth-of-type(3){
+    grid-column: 1 /span 2;
+}
+
+
+
+
+
+main li {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+main li img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+
+}
+
+.item-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.item-content h2 {
+    margin: 5px;
+
+}
+
+.explore-buttom {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(22, 211, 228);
+
+}
+
+.explore-buttom:hover {
+    color: black;
+    background-color: rgba(55, 206, 206, 0.5);
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.actions {
+    text-align: right;
+} 
+
+header nav a{
+    color:rgb(183, 230, 235);
+}
+
+
+header nav a:hover{
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}

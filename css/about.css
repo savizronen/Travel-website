@@ -1,0 +1,56 @@
+
+body{
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+  text-transform: uppercase;
+  color: #008CBA;
+  font-size: 40px;
+  margin-left: 500px;
+  width: 500px;
+  margin-bottom: 40px;
+
+}
+
+p {
+  margin-bottom: 40px;
+  text-align: justify;
+  color: black;
+  font-size: 34px;
+  width: 100%;
+  margin-left: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+.a-link :hover{
+  text-decoration: none;
+  color: black;
+  background-color: #0e638065;
+  border-radius: 6px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+footer{
+    background-size: cover;
+}
+#my-pic{
+    width: 30%;
+    height: 30%;
+}
+#li-my-pic{
+  width: 100%;
+  margin-left: 200px;
+  margin-bottom: 150px;
+  
+}
+#p-thanks{
+  font-size: 22px;  
+  text-align: left;
+  margin-top: 100px;
+  margin-right: 160px;
+  color: #0e6380;;
+}
